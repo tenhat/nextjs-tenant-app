@@ -2,18 +2,58 @@
   "items": [
     {
       "id": 1,
-      "name": "商品1",
-      "description": "パソコン",
+      "name": "パソコン1",
+      "description": "高性能なパソコンです",
       "price": 100,
-      "imageUrl": "/images/thumbnail01",
+      "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false
     },
     {
-      "id": 2,
-      "name": "商品2",
-      "description": "パソコン",
-      "price": 100,
-      "imageUrl": "/images/thumbnail02",
+      "name": "パソコン３",
+      "price": "1000",
+      "description": "ミドルスペックのパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 3
+    },
+    {
+      "name": "ゲーミングPC",
+      "price": "100000",
+      "description": "ゲーミング用のパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 4
+    },
+    {
+      "id": 8618,
+      "name": "新登場パソコン",
+      "price": "1000",
+      "description": "新登場のパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "id": 89,
+      "name": "windows",
+      "price": "100000",
+      "description": "windowsOSのパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "id": 288,
+      "name": "Mac",
+      "price": "100000",
+      "description": "MacOSのパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "id": 8125,
+      "name": "msi",
+      "price": "120000",
+      "description": "msiのゲーミングパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false
     }
   ]
