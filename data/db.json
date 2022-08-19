@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "商品1",
+      "description": "パソコン",
+      "price": 100,
+      "imageUrl": "/images/thumbnail01",
+      "deleted": false
+    },
+    {
+      "id": 2,
+      "name": "商品2",
+      "description": "パソコン",
+      "price": 100,
+      "imageUrl": "/images/thumbnail02",
+      "deleted": false
+    }
+  ]
+}

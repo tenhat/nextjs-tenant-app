@@ -1,0 +1,14 @@
+.imageCircle {
+  border-radius: 9999px;
+}
+
+.imageLink {
+  cursor: pointer;
+  box-shadow: 0 0 10px 5px;
+  margin: 10px;
+  transition: transform .3s;
+}
+
+.imageLink:hover {
+  transform: translateY(10px);
+}
