@@ -6,11 +6,12 @@ import styles from '../styles/Home.module.css';
 import utilStyles from "../styles/utilStyles.module.css"
 
 
-const Home = ({ allPostsData }: { allPostsData: { id: string; title: string; date: string; thumbnail: string }[] }) => {
+const Home = () => {
   return (
     <>
       <Head>
         <title>Home</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
         <Link href="/posts/addForm">

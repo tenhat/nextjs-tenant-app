@@ -46,7 +46,7 @@ export default function Items() {
   return (
     <div className={jsonStyles.grid}>
       {data.map((item: Item) => {
-        const { id, name, description } = item;
+        const { id, name, description, price } = item;
         return (
           <div key={id} className={jsonStyles.card}>
             <Link href={`posts/${id}`}>
@@ -54,7 +54,8 @@ export default function Items() {
                 <h1>{name}</h1>
               </a>
             </Link>
-            <p>{description}</p>
+            <p>詳細：{description}</p>
+            <p>価格：{price}円</p>
             <button onClick={() => onClickDelete(id)}>削除</button>
           </div>
         )

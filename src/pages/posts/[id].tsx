@@ -17,7 +17,7 @@ export async function getStaticProps({ params }: { params: { id: number } }) {
   return {
     props: {
       jsonData
-    }
+    },
   }
 }
 
@@ -37,7 +37,7 @@ export default function Details({ jsonData }: { jsonData: Item }) {
       <img src={imageUrl} />
       <p>詳細：{description}</p>
       <p>価格：{price}円</p>
-      <Link href="/posts/edit">
+      <Link href={{pathname: "/posts/edit", query: {id: id.toString()}}} >
         <button>編集</button>
       </Link>
       <Link href="/">

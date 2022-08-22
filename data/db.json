@@ -1,36 +1,36 @@
 {
   "items": [
     {
-      "id": 1,
-      "name": "パソコン1",
-      "description": "高性能なパソコンです",
-      "price": 100,
+      "name": "pc1",
+      "price": "100000",
+      "description": "aaaaaaaaaaaaaa",
       "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
+      "deleted": false,
+      "id": 1
     },
     {
-      "name": "パソコン３",
-      "price": "1000",
-      "description": "ミドルスペックのパソコンです",
+      "name": "new pc3",
+      "price": "50000",
+      "description": "aaaaaaaaa",
       "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false,
       "id": 3
     },
     {
-      "name": "ゲーミングPC",
-      "price": "100000",
-      "description": "ゲーミング用のパソコンです",
-      "imageUrl": "/images/thumbnail01.jpg",
+      "name": "gaming PC",
+      "price": "120000",
+      "description": "gaming",
+      "imageUrl": "/images/thumbnail04.jpg",
       "deleted": false,
       "id": 4
     },
     {
-      "id": 8618,
       "name": "新登場パソコン",
-      "price": "1000",
+      "price": "70000",
       "description": "新登場のパソコンです",
       "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
+      "deleted": false,
+      "id": 8618
     },
     {
       "id": 89,
@@ -41,18 +41,34 @@
       "deleted": false
     },
     {
-      "id": 288,
-      "name": "Mac",
-      "price": "100000",
-      "description": "MacOSのパソコンです",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
-    },
-    {
       "id": 8125,
       "name": "msi",
       "price": "120000",
       "description": "msiのゲーミングパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "id": 5226,
+      "name": "new PC",
+      "price": "150000",
+      "description": "new Pc",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "name": "aaaaaa",
+      "price": "10",
+      "description": "aaaaaaa",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 5253
+    },
+    {
+      "id": 6295,
+      "name": "Mac",
+      "price": "150000",
+      "description": "MacPC",
       "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false
     }
