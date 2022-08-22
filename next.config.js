@@ -11,7 +11,7 @@ module.exports = {
     return [
       {
         source: '/items',
-        destination: 'http://localhost:3000/items',
+        destination: 'http://localhost:8000/items',
       },
     ]
   },

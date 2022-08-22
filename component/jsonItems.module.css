@@ -1,0 +1,13 @@
+.grid {
+  padding: 20px 0;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 40px;
+}
+
+.card {
+  box-shadow: 2px 0 4px 2px;
+  padding: 10px;
+  border-radius: 10px;
+}

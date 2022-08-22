@@ -1,19 +1,91 @@
 {
   "items": [
     {
-      "id": 1,
-      "name": "商品1",
-      "description": "パソコン",
-      "price": 100,
-      "imageUrl": "/images/thumbnail01",
+      "name": "pc1",
+      "price": "100000",
+      "description": "aaaaaaaaaaaaaa",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 1
+    },
+    {
+      "name": "new pc3",
+      "price": "55000",
+      "description": "aaaaaaaaa",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 3
+    },
+    {
+      "name": "gaming PC",
+      "price": "120000",
+      "description": "gaming",
+      "imageUrl": "/images/thumbnail04.jpg",
+      "deleted": false,
+      "id": 4
+    },
+    {
+      "name": "新登場パソコン",
+      "price": "70000",
+      "description": "新登場のパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 8618
+    },
+    {
+      "id": 89,
+      "name": "windows",
+      "price": "100000",
+      "description": "windowsOSのパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false
     },
     {
-      "id": 2,
-      "name": "商品2",
-      "description": "パソコン",
-      "price": 100,
-      "imageUrl": "/images/thumbnail02",
+      "id": 8125,
+      "name": "msi",
+      "price": "120000",
+      "description": "msiのゲーミングパソコンです",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "id": 5226,
+      "name": "new PC",
+      "price": "150000",
+      "description": "new Pc",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "name": "aaaaaa",
+      "price": "10",
+      "description": "aaaaaaa",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false,
+      "id": 5253
+    },
+    {
+      "id": 6295,
+      "name": "Mac",
+      "price": "150000",
+      "description": "MacPC",
+      "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "name": "aaaaaaaa",
+      "price": "100000",
+      "description": "aaaaaaaaaa",
+      "imageUrl": "/images/thumbnail02.jpg",
+      "deleted": false,
+      "id": 1375
+    },
+    {
+      "id": 5528,
+      "name": "bbbbbbb",
+      "price": "50000",
+      "description": "abbbbbbbb",
+      "imageUrl": "/images/thumbnail04.jpg",
       "deleted": false
     }
   ]
