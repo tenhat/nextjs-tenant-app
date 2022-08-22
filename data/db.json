@@ -10,7 +10,7 @@
     },
     {
       "name": "new pc3",
-      "price": "50000",
+      "price": "55000",
       "description": "aaaaaaaaa",
       "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false,
@@ -70,6 +70,22 @@
       "price": "150000",
       "description": "MacPC",
       "imageUrl": "/images/thumbnail01.jpg",
+      "deleted": false
+    },
+    {
+      "name": "aaaaaaaa",
+      "price": "100000",
+      "description": "aaaaaaaaaa",
+      "imageUrl": "/images/thumbnail02.jpg",
+      "deleted": false,
+      "id": 1375
+    },
+    {
+      "id": 5528,
+      "name": "bbbbbbb",
+      "price": "50000",
+      "description": "abbbbbbbb",
+      "imageUrl": "/images/thumbnail04.jpg",
       "deleted": false
     }
   ]

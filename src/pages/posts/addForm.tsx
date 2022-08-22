@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import Layout from "../../../component/Layout";
-
+import utilStyles from "../../styles/utilStyles.module.css";
 
 function AddForm() {
   const [nameText, setNameText] = useState("");
   const onChangeNameText = (event: any) => setNameText(event.target.value);
+  const myref: React.RefObject<any> = React.createRef();
   const [priceText, setPriceText] = useState("");
   const onChangePriceText = (event: any) => setPriceText(event.target.value);
   const [descText, setDescText] = useState("");
@@ -21,7 +22,7 @@ function AddForm() {
         name: nameText,
         price: priceText,
         description: descText,
-        imageUrl: "/images/thumbnail01.jpg",
+        imageUrl: `/images/${myref.current.files[0].name}`,
         deleted: false
       })
     })
@@ -33,6 +34,11 @@ function AddForm() {
         <label >name:</label>
         <br />
         <input type="text" name="name" id="name" value={nameText} onChange={onChangeNameText} />
+        <br />
+        <label className={utilStyles.labelButton}>
+          参照
+          <input type="file" ref={myref} className={utilStyles.none} />
+        </label>
         <br />
         <label >description:</label>
         <br />
