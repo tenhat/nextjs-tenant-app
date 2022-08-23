@@ -12,20 +12,24 @@ function AddForm() {
   const [descText, setDescText] = useState("");
   const onChangeDescText = (event: any) => setDescText(event.target.value);
 
-  const makeId = (max: number) => Math.floor(Math.random() * max)
   const onClickAdd = () => {
-    return fetch("/items", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        id: makeId(10000),
-        name: nameText,
-        price: priceText,
-        description: descText,
-        imageUrl: `/images/${myref.current.files[0].name}`,
-        deleted: false
+    const result = myref.current.files.length ? `/images/${myref.current.files[0].name}` : "none";
+    if(nameText && priceText && descText && myref) {
+      return fetch("/items", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: nameText,
+          price: priceText,
+          description: descText,
+          imageUrl: result,
+          deleted: false
+        })
       })
-    })
+    } else {
+      alert ('すべての項目を入力してください');
+      return;
+    }
   }
 
   return (
@@ -48,11 +52,13 @@ function AddForm() {
         <br />
         <input type="text" name="price" id="price" value={priceText} onChange={onChangePriceText} />
         <br />
+        {(nameText && priceText && descText && myref) && 
         <Link href="/">
-          <button onClick={() => onClickAdd()}>追加</button>
+          <button type="button" onClick={() => onClickAdd()}>追加</button>
         </Link>
+        }
         <Link href="/">
-          <button>戻る</button>
+          <button type="button">戻る</button>
         </Link>
       </form>
     </Layout>

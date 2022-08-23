@@ -1,6 +1,6 @@
 import Link from "next/link";
 import useSWR from "swr";
-import { Item } from "../../../component/jsonItems";
+import { Item } from "types";
 import Layout from "../../../component/Layout";
 import { getAllJsonIds, getJsonData } from "../../../lib/json";
 

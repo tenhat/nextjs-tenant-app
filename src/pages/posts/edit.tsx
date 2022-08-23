@@ -29,25 +29,30 @@ function Edit() {
 
   const onClickEdit = () => {
     const result = myref.current.files.length ? `/images/${myref.current.files[0].name}` : imageText;
-    return fetch(`http://localhost:8000/items/${idText}`, {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: nameText,
-        price: priceText,
-        description: descText,
-        imageUrl: result,
-        deleted: false
+    if(nameText && priceText && descText) {
+      return fetch(`http://localhost:8000/items/${idText}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: nameText,
+          price: priceText,
+          description: descText,
+          imageUrl: result,
+          deleted: false
+        })
       })
-    })
+    } else {
+      alert("すべての項目を入力してください");
+      return;
+    }
   }
 
-  const onClickConsole = () => {
-    console.log(myref);
-    console.log(imageText);
-    // console.log(result);
-    console.log(myref.current.files.length);
-  };
+  // const onClickConsole = () => {
+  //   console.log(myref);
+  //   console.log(imageText);
+  //   // console.log(result);
+  //   console.log(myref.current.files.length);
+  // };
 
   return (
     <Layout>
@@ -76,13 +81,15 @@ function Edit() {
         <br />
         <input type="text" name="price" id="price" value={priceText} onChange={onChangePriceText} />
         <br />
+        {(nameText && priceText && descText && myref) && 
         <Link href="/">
-          <button onClick={() => onClickEdit()}>編集</button>
+          <button type="button" onClick={() => onClickEdit()}>追加</button>
         </Link>
+        }
         <Link href="/">
           <button>戻る</button>
         </Link>
-        <button type="button" onClick={() => onClickConsole()}>console.log</button>
+        {/* <button type="button" onClick={() => onClickConsole()}>console.log</button> */}
       </form>
     </Layout>
   );

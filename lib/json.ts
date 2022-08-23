@@ -1,4 +1,4 @@
-import { Item } from "../component/jsonItems"
+import { Item } from "../component/ItemList"
 
 export async function getAllJsonIds() {
   return fetch("http://localhost:8000/items")

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Items from '../../component/jsonItems';
+import Items from '../../component/ItemList';
 import Layout from '../../component/Layout';
 import styles from '../styles/Home.module.css';
 import utilStyles from "../styles/utilStyles.module.css"

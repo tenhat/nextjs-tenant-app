@@ -1,92 +1,52 @@
 {
   "items": [
     {
-      "name": "pc1",
+      "name": "pc2",
       "price": "100000",
-      "description": "aaaaaaaaaaaaaa",
-      "imageUrl": "/images/thumbnail01.jpg",
+      "description": "22222222",
+      "imageUrl": "/images/thumbnail02.jpg",
       "deleted": false,
-      "id": 1
+      "id": 2
     },
     {
-      "name": "new pc3",
-      "price": "55000",
+      "name": "bbbbbbbbb",
+      "price": "22222222",
       "description": "aaaaaaaaa",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false,
-      "id": 3
-    },
-    {
-      "name": "gaming PC",
-      "price": "120000",
-      "description": "gaming",
-      "imageUrl": "/images/thumbnail04.jpg",
+      "imageUrl": "/images/thumbnail02.jpg",
       "deleted": false,
       "id": 4
     },
     {
-      "name": "新登場パソコン",
-      "price": "70000",
-      "description": "新登場のパソコンです",
+      "name": "cccccccc",
+      "price": "dddddd",
+      "description": "cccccccccc",
+      "imageUrl": "none",
+      "deleted": false,
+      "id": 5
+    },
+    {
+      "name": "ddddddd",
+      "price": "ddddddd",
+      "description": "dddddd",
+      "imageUrl": "none",
+      "deleted": false,
+      "id": 6
+    },
+    {
+      "name": "ddddd",
+      "price": "ddddddd",
+      "description": "dddddd",
       "imageUrl": "/images/thumbnail01.jpg",
       "deleted": false,
-      "id": 8618
-    },
-    {
-      "id": 89,
-      "name": "windows",
-      "price": "100000",
-      "description": "windowsOSのパソコンです",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
-    },
-    {
-      "id": 8125,
-      "name": "msi",
-      "price": "120000",
-      "description": "msiのゲーミングパソコンです",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
-    },
-    {
-      "id": 5226,
-      "name": "new PC",
-      "price": "150000",
-      "description": "new Pc",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
+      "id": 7
     },
     {
       "name": "aaaaaa",
-      "price": "10",
-      "description": "aaaaaaa",
-      "imageUrl": "/images/thumbnail01.jpg",
+      "price": "aaaaaaaa",
+      "description": "aaaaaa",
+      "imageUrl": "none",
       "deleted": false,
-      "id": 5253
-    },
-    {
-      "id": 6295,
-      "name": "Mac",
-      "price": "150000",
-      "description": "MacPC",
-      "imageUrl": "/images/thumbnail01.jpg",
-      "deleted": false
-    },
-    {
-      "name": "aaaaaaaa",
-      "price": "100000",
-      "description": "aaaaaaaaaa",
-      "imageUrl": "/images/thumbnail02.jpg",
-      "deleted": false,
-      "id": 1375
-    },
-    {
-      "id": 5528,
-      "name": "bbbbbbb",
-      "price": "50000",
-      "description": "abbbbbbbb",
-      "imageUrl": "/images/thumbnail04.jpg",
-      "deleted": false
+      "id": 8
     }
   ]
 }
